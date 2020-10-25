@@ -4,7 +4,7 @@ class Customer <<Entity>> {
   + name: String
   + phone: String
   + email: String
-  + order()
+  + makeAnOrder()
 }
 class Order <<Entity>> {
   + orderType
