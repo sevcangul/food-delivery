@@ -1,0 +1,27 @@
+@startuml Class Diagram
+
+class Customer <<Entity>> {
+  + name: String
+  + phone: String
+  + email: String
+  + order()
+}
+class Order <<Entity>> {
+  + orderType
+  + orderPrice
+  + customer
+  + note
+}
+
+class Restaurant {
+  + name: String
+  + location: String
+  + order
+  + customer
+  + cancelOrder()
+}
+
+Customer *--> Order
+Restaurant *--> Order
+
+@enduml
