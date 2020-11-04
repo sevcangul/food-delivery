@@ -1,39 +1,8 @@
 // Restaurant = driver
 // Customer = passenger
 // Order = booking
-
-class Customer {
-  constructor(name, food, location) {
-    this.name = name
-    this.orders = []
-    this.food = food
-    this.location = location
-  }
-
-  giveAnOrder(restaurant, food, origin) {
-    const order = new Order(this, restaurant, food, origin)
-    this.orders.push(order)
-
-    return order
-  }
-}
-
-class Order {
-  constructor(customer, restaurant, food, origin) {
-    this.customer = customer
-    this.restaurant = restaurant
-    this.food = food
-    this.origin = origin // customer.location?  müşterinin nerede olduğu
-    // this.destination = destination // müşterinin nereye gitmek istedği
-  }
-}
-
-class Restaurant {
-  constructor(brand, location) {
-    this.brand = brand
-    this.location = location
-  }
-}
+const Customer = require('./customer')
+const Restaurant = require('./restaurant')
 
 const sevcan = new Customer('Sevcan', 'hamburger', 'Urla')
 const nusret = new Restaurant('Nusret', 'Alsancak')
