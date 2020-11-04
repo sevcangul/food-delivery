@@ -1,19 +1,21 @@
 // Restaurant = driver
 // Customer = passenger
 // Order = booking
+const colors = require('colors')
+
 const Customer = require('./customer')
 const Restaurant = require('./restaurant')
 
 const sevcan = new Customer('Sevcan', 'hamburger', 'Urla')
-const nusret = new Restaurant('Nusret', 'Alsancak')
+const bigchefs = new Restaurant('Big Chefs', 'Alsancak')
 
-const order1 = sevcan.giveAnOrder(nusret, 'hamburger', 'Urla')
-const order2 = sevcan.giveAnOrder(nusret, 'pizza', 'Karşıyaka')
-const order3 = sevcan.giveAnOrder(nusret, 'pasta', 'Alsancak')
-const order4 = sevcan.giveAnOrder(nusret, 'cheeseburger', 'Bostanlı')
+const order1 = sevcan.giveAnOrder(bigchefs, 'hamburger', 'Urla')
+const order2 = sevcan.giveAnOrder(bigchefs, 'pizza', 'Karşıyaka')
+const order3 = sevcan.giveAnOrder(bigchefs, 'pasta', 'Alsancak')
+const order4 = sevcan.giveAnOrder(bigchefs, 'cheeseburger', 'Bostanlı')
 
 function printOrder(order) {
-  console.log(`${order.customer.name} wants to order ${order.food} from ${order.restaurant.brand} to ${order.origin}`)
+  console.log(`${colors.blue(order.customer.name)} wants to order ${colors.bgBlue.white(order.food)} from ${colors.green(order.restaurant.brand)} to ${colors.bgGreen.white(order.origin)}`)
 }
 
 function printOrderHistory(customer) {
@@ -22,7 +24,7 @@ function printOrderHistory(customer) {
 
 printOrderHistory(sevcan)
 
-// nusret.sendAnOrder(order.origin)
+// bigchefs.sendAnOrder(order.origin)
 console.log(`${sevcan.name} has ${sevcan.orders.length} order(s).`)
 console.log(sevcan.orders[0].restaurant.location)
 console.log(sevcan.orders[0].origin)
