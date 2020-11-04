@@ -3,8 +3,7 @@ class Order {
     this.customer = customer
     this.restaurant = restaurant
     this.food = food
-    this.origin = origin // customer.location?  müşterinin nerede olduğu
-    // this.destination = destination // müşterinin nereye gitmek istedği
+    this.origin = origin // customer.location?
   }
 }
 

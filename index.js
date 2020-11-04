@@ -1,6 +1,3 @@
-// Restaurant = driver
-// Customer = passenger
-// Order = booking
 const colors = require('colors')
 
 const Customer = require('./customer')
@@ -24,14 +21,10 @@ function printOrderHistory(customer) {
 
 printOrderHistory(sevcan)
 
-// bigchefs.sendAnOrder(order.origin)
 console.log(`${sevcan.name} has ${sevcan.orders.length} order(s).`)
 console.log(sevcan.orders[0].restaurant.location)
 console.log(sevcan.orders[0].origin)
 console.log(sevcan.orders[1].food)
 
-// printOrder(order1)
-// printOrder(order2)
-// printOrder(order3)
 
 
