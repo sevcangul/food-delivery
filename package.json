@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "watch": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/sevcangul/food-delivery/issues"
   },
-  "homepage": "https://github.com/sevcangul/food-delivery#readme"
+  "homepage": "https://github.com/sevcangul/food-delivery#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
