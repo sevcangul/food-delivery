@@ -1,5 +1,5 @@
 const colors = require('colors')
-
+const db = require('./database')
 const Customer = require('./customer')
 const Restaurant = require('./restaurant')
 
@@ -19,7 +19,15 @@ function printOrderHistory(customer) {
   sevcan.orders.forEach(printOrder)
 }
 
-printOrderHistory(sevcan)
+db.save('customers', [{name: 'Sevcan', food: 'hamburger', location: 'Urla'}])
+// db.save('restaurants', [bigchefs])
+
+const customers = db.load('customers')
+console.log(customers)
+
+// customers.forEach(printOrderHistory)
+
+// printOrderHistory(sevcan)
 
 console.log(`${sevcan.name} has ${sevcan.orders.length} order(s).`)
 console.log(sevcan.orders[0].restaurant.location)
