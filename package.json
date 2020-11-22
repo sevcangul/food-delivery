@@ -20,7 +20,8 @@
   "homepage": "https://github.com/sevcangul/food-delivery#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "flatted": "^3.1.0"
+    "flatted": "^3.1.0",
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"

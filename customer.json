@@ -1,0 +1,105 @@
+[[
+  "1",
+  "2"
+],{
+  "id": "3",
+  "name": "4",
+  "food": "5",
+  "location": "6",
+  "orders": "7"
+},{
+  "id": "8",
+  "name": "9",
+  "food": "10",
+  "location": "11",
+  "orders": "12"
+},"747a0af6-9513-44bb-9633-1667d8212403","Sevcan","hamburger","Urla",[
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+],"547a96eb-bd1c-4aa5-8d06-ce54a90d0050","Gizem","cake","Karşıyaka",[
+  "20"
+],{
+  "customer": "21",
+  "restaurant": "22",
+  "food": "5",
+  "origin": "6"
+},{
+  "customer": "21",
+  "restaurant": "22",
+  "food": "23",
+  "origin": "11"
+},{
+  "customer": "21",
+  "restaurant": "22",
+  "food": "24",
+  "origin": "25"
+},{
+  "customer": "21",
+  "restaurant": "22",
+  "food": "26",
+  "origin": "27"
+},{
+  "customer": "28",
+  "restaurant": "29",
+  "food": "30",
+  "origin": "31"
+},{
+  "customer": "32",
+  "restaurant": "33",
+  "food": "34",
+  "origin": "31"
+},{
+  "customer": "1",
+  "restaurant": "35",
+  "food": "34",
+  "origin": "31"
+},{
+  "customer": "36",
+  "restaurant": "37",
+  "food": "10",
+  "origin": "11"
+},{
+  "id": "3",
+  "name": "4",
+  "food": "5",
+  "location": "6",
+  "orders": "7"
+},{
+  "brand": "38",
+  "location": "25"
+},"pizza","pasta","Alsancak","cheeseburger","Bostanlı",{
+  "id": "3",
+  "name": "4",
+  "food": "5",
+  "location": "6",
+  "orders": "7"
+},{
+  "brand": "38",
+  "location": "25"
+},"burger","Urrrrla",{
+  "id": "3",
+  "name": "4",
+  "food": "5",
+  "location": "6",
+  "orders": "7"
+},{
+  "brand": "38",
+  "location": "25"
+},"burgerrrrr",{
+  "brand": "38",
+  "location": "25"
+},{
+  "id": "8",
+  "name": "9",
+  "food": "10",
+  "location": "11",
+  "orders": "12"
+},{
+  "brand": "38",
+  "location": "25"
+},"Big Chefs"]
