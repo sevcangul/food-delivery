@@ -58,8 +58,7 @@ function printOrderHistory(customer) {
 
 // console.log(`${sevcan.name} has ${sevcan.orders.length} order(s).`)
 // console.log(sevcan.orders[0].restaurant.location)
-// console.log(sevcan.orders[0].origin)
-// console.log(sevcan.orders[1].food)
+
 
 
 
