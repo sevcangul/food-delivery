@@ -53,9 +53,6 @@ function printOrderHistory(customer) {
 
 
 // customers.forEach(p => console.log(p.name))
-
-// printOrderHistory(sevcan)
-
 // console.log(`${sevcan.name} has ${sevcan.orders.length} order(s).`)
 // console.log(sevcan.orders[0].restaurant.location)
 
