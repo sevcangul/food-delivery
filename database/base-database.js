@@ -15,6 +15,7 @@ class BaseDatabase {
     const file = fs.readFileSync(`${__dirname}/${this.filename}.json`, 'utf8')
     const objects = flatted.parse(file)
 
+    // console.log(objects)
     return objects.map(this.model.create)
   }
 
