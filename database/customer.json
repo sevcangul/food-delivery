@@ -1,0 +1,51 @@
+[[
+  "1",
+  "2"
+],{
+  "id": "3",
+  "name": "4",
+  "food": "5",
+  "location": "6",
+  "orders": "7"
+},{
+  "id": "8",
+  "name": "9",
+  "food": "10",
+  "location": "11",
+  "orders": "12"
+},"4820f5c5-e4c5-494e-a79f-0ac26c547d85","Sevcan","hamburger","Urla",[
+  "13",
+  "14",
+  "15",
+  "16"
+],"3e08df6d-a805-448c-8e13-a6288dfc93a6","Gizem","cake","Karşıyaka",[
+  "17"
+],{
+  "customer": "1",
+  "restaurant": "18",
+  "food": "5",
+  "origin": "6"
+},{
+  "customer": "1",
+  "restaurant": "18",
+  "food": "19",
+  "origin": "11"
+},{
+  "customer": "1",
+  "restaurant": "18",
+  "food": "20",
+  "origin": "21"
+},{
+  "customer": "1",
+  "restaurant": "18",
+  "food": "22",
+  "origin": "23"
+},{
+  "customer": "2",
+  "restaurant": "18",
+  "food": "10",
+  "origin": "11"
+},{
+  "brand": "24",
+  "location": "21"
+},"pizza","pasta","Alsancak","cheeseburger","Bostanlı","Big Chefs"]
