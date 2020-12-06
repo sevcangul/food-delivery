@@ -20,54 +20,42 @@
   "food": "16",
   "location": "17",
   "orders": "18"
-},"82a5da51-4c9a-4eb6-8c83-c9c00ee3019e","Sevcan","hamburger","Urla",[
+},"268f94ac-81b2-46a0-a146-4f5a7c6e4431","Sevcan","hamburger","Urla",[
   "19",
   "20",
   "21",
   "22",
-  "23",
-  "24",
-  "25"
-],"4520ad0f-bce2-4004-8b6b-0eae1c36a81c","Gizem","cake","Karşıyaka",[
-  "26"
-],"936c7bc6-ceb8-45a7-bab5-464601cbe5e2","Dilek","cheeseburger","Güzelbahçe",[],{
-  "customer": "27",
-  "restaurant": "28",
+  "23"
+],"a2e2767b-65fc-46d2-b2ff-2627123563d4","Gizem","cake","Karşıyaka",[
+  "24"
+],"e4daa186-ba80-4f03-b117-d25f3b45dba7","Dilek","cheeseburger","Güzelbahçe",[],{
+  "customer": "25",
+  "restaurant": "26",
   "food": "6",
   "origin": "7"
 },{
-  "customer": "27",
-  "restaurant": "28",
-  "food": "29",
+  "customer": "25",
+  "restaurant": "26",
+  "food": "27",
   "origin": "12"
 },{
-  "customer": "27",
-  "restaurant": "28",
-  "food": "30",
-  "origin": "31"
+  "customer": "25",
+  "restaurant": "26",
+  "food": "28",
+  "origin": "29"
 },{
-  "customer": "27",
-  "restaurant": "28",
+  "customer": "25",
+  "restaurant": "26",
   "food": "16",
+  "origin": "30"
+},{
+  "customer": "1",
+  "restaurant": "31",
+  "food": "6",
   "origin": "32"
 },{
   "customer": "33",
   "restaurant": "34",
-  "food": "6",
-  "origin": "35"
-},{
-  "customer": "36",
-  "restaurant": "37",
-  "food": "6",
-  "origin": "35"
-},{
-  "customer": "1",
-  "restaurant": "38",
-  "food": "6",
-  "origin": "35"
-},{
-  "customer": "39",
-  "restaurant": "40",
   "food": "11",
   "origin": "12"
 },{
@@ -77,36 +65,18 @@
   "location": "7",
   "orders": "8"
 },{
-  "brand": "41",
-  "location": "31"
+  "brand": "35",
+  "location": "29"
 },"pizza","pasta","Alsancak","Bostanlı",{
-  "id": "4",
-  "name": "5",
-  "food": "6",
-  "location": "7",
-  "orders": "8"
-},{
-  "brand": "41",
-  "location": "31"
+  "brand": "35",
+  "location": "29"
 },"Urlaa",{
-  "id": "4",
-  "name": "5",
-  "food": "6",
-  "location": "7",
-  "orders": "8"
-},{
-  "brand": "41",
-  "location": "31"
-},{
-  "brand": "41",
-  "location": "31"
-},{
   "id": "9",
   "name": "10",
   "food": "11",
   "location": "12",
   "orders": "13"
 },{
-  "brand": "41",
-  "location": "31"
+  "brand": "35",
+  "location": "29"
 },"Big Chefs"]
