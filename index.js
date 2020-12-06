@@ -42,6 +42,7 @@ console.log(restaurantDatabase.findBy('brand', 'Big Chefs'))
 
 
 
+
 // const sevcan = Customer.create({name: 'Sevcan', food: 'hamburger', location: 'Urla'})
 // const gizem = Customer.create({name: 'Gizem', food: 'cake', location: 'Karşıyaka'})
 // const bigchefs = Restaurant.create({brand: 'Big Chefs', location: 'Alsancak'})
