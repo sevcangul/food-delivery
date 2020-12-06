@@ -1,4 +1,4 @@
-const {customerDatabase, restaurantDatabase} = require('./database')
+const { customerDatabase, restaurantDatabase } = require('./database')
 const printOrderHistory = require('./lib/print-order-history')
 
 const bigchefs = restaurantDatabase.findBy('brand', 'Big Chefs')
@@ -9,6 +9,8 @@ customerDatabase.update(sevcan)
 
 printOrderHistory(sevcan)
 console.log(customerDatabase.findBy('location', 'Urla'))
+console.log(restaurantDatabase.findBy('brand', 'Big Chefs'))
+
 
 
 
