@@ -14,6 +14,9 @@ sevcan.giveAnOrder(bigchefs, 'pizza', 'Karşıyaka')
 sevcan.giveAnOrder(bigchefs, 'pasta', 'Alsancak')
 sevcan.giveAnOrder(bigchefs, 'cheeseburger', 'Bostanlı')
 gizem.giveAnOrder(bigchefs, 'cake', 'Karşıyaka')
+sevcan.giveAnOrder(bigchefs, 'hamburger4', 'Urla4')
+
+sevcan.cancelOrder(bigchefs, 'cheeseburger', 'Bostanlı')
 
 customerDatabase.save([sevcan, gizem])
 restaurantDatabase.save([bigchefs])
