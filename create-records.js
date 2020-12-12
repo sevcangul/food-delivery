@@ -30,7 +30,7 @@ async function main() {
     const customers = await customerDatabase.load()
     customers.forEach(printOrderHistory)
   } catch (e) {
-    consoçelog(e)
+    console.log(e)
   }
 
 }
