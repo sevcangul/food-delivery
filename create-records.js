@@ -14,17 +14,25 @@ sevcan.giveAnOrder(bigchefs, 'pizza', 'Karşıyaka')
 sevcan.giveAnOrder(bigchefs, 'pasta', 'Alsancak')
 sevcan.giveAnOrder(bigchefs, 'cheeseburger', 'Bostanlı')
 gizem.giveAnOrder(bigchefs, 'cake', 'Karşıyaka')
-sevcan.giveAnOrder(bigchefs, 'hamburger4', 'Urla4')
+// sevcan.giveAnOrder(bigchefs, 'hamburger4', 'Urla4')
 
-sevcan.cancelOrder(bigchefs, 'cheeseburger', 'Bostanlı')
+// sevcan.cancelOrder(bigchefs, 'cheeseburger', 'Bostanlı')
 
-customerDatabase.save([sevcan, gizem])
-restaurantDatabase.save([bigchefs])
+async function main() {
+  try {
+    await customerDatabase.save([sevcan, gizem])
 
-const dilek = Customer.create({name: 'Dilek', food: 'cheeseburger', location: 'Güzelbahçe'})
+    await restaurantDatabase.save([bigchefs])
 
-customerDatabase.insert(dilek)
+    const dilek = Customer.create({ name: 'Dilek', food: 'cheeseburger', location: 'Güzelbahçe' })
 
-const customers = customerDatabase.load()
+    await customerDatabase.insert(dilek)
+    const customers = await customerDatabase.load()
+    customers.forEach(printOrderHistory)
+  } catch (e) {
+    consoçelog(e)
+  }
 
-customers.forEach(printOrderHistory)
+}
+
+main()

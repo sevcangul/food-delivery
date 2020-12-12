@@ -8,20 +8,30 @@ class BaseDatabase {
   }
 
   save(objects) {
-    fs.writeFileSync(`${__dirname}/${this.filename}.json`, flatted.stringify(objects, null, 2))
+    return new Promise((resolve, reject) => {
+      fs.writeFile(`${__dirname}/${this.filename}.json`, flatted.stringify(objects, null, 2), (err) => {
+        if (err) return reject(err)
+        resolve()
+      })
+    })
   }
 
   load() {
-    const file = fs.readFileSync(`${__dirname}/${this.filename}.json`, 'utf8')
-    const objects = flatted.parse(file)
+    return new Promise((resolve, reject) => {
+      fs.readFile(`${__dirname}/${this.filename}.json`, 'utf8', (err, file) => {
+        if (err) return reject(err)
 
-    // console.log(objects)
-    return objects.map(this.model.create)
+        const objects = flatted.parse(file)
+
+        resolve(objects.map(this.model.create))
+      })
+
+    })
   }
 
-  insert(object) {
-    const objects = this.load()
-    this.save(objects.concat(object)) // = add object to the end of the object, return new array and save it
+  async insert(object) {
+    const objects = await this.load()
+    return this.save(objects.concat(object))  // = add object to the end of the object, return new array and save it
   }
 
   remove(index) {
