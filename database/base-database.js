@@ -41,22 +41,24 @@ class BaseDatabase {
     await this.save(objects)
   }
 
-  update(object) {
-    const objects = this.load()
+  async update(object) {
+    const objects = await this.load()
 
     const index = objects.findIndex(o => o.id == object.id)
 
     if (index == -1) throw new Error(`Cannot find ${this.model.name} instance with id ${object.id}`)
 
     objects.splice(index, 1, object)
-    this.save(objects)
-  }
-  find(id) {
-    return this.load().find(o => o.id == id)
+    await this.save(objects)
   }
 
-  findBy(property, value) {
-    return this.load().find(o => o[property] == value)
+  async find(id) {
+    const objects = await this.load()
+    return objects.find(o => o.id == id)
+  }
+
+  async findBy(property, value) {
+    return (await this.load()).find(o => o[property] == value)
   }
 
 }
