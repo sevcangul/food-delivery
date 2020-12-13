@@ -9,11 +9,11 @@ const sevcan = Customer.create({name: 'Sevcan', food: 'hamburger', location: 'Ur
 const gizem = Customer.create({name: 'Gizem', food: 'cake', location: 'Karşıyaka'})
 const bigchefs = Restaurant.create({brand: 'Big Chefs', location: 'Alsancak'})
 
-sevcan.giveAnOrder(bigchefs, 'hamburger', 'Urla')
-sevcan.giveAnOrder(bigchefs, 'pizza', 'Karşıyaka')
-sevcan.giveAnOrder(bigchefs, 'pasta', 'Alsancak')
-sevcan.giveAnOrder(bigchefs, 'cheeseburger', 'Bostanlı')
-gizem.giveAnOrder(bigchefs, 'cake', 'Karşıyaka')
+sevcan.giveAnOrder(bigchefs, 'hamburger')
+sevcan.giveAnOrder(bigchefs, 'pizza')
+sevcan.giveAnOrder(bigchefs, 'pasta')
+sevcan.giveAnOrder(bigchefs, 'cheeseburger')
+gizem.giveAnOrder(bigchefs, 'cake')
 // sevcan.giveAnOrder(bigchefs, 'hamburger4', 'Urla4')
 
 // sevcan.cancelOrder(bigchefs, 'cheeseburger', 'Bostanlı')
