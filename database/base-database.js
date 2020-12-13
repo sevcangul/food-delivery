@@ -34,11 +34,11 @@ class BaseDatabase {
     return this.save(objects.concat(object))  // = add object to the end of the object, return new array and save it
   }
 
-  remove(index) {
-    const objects = this.load()
+  async remove(index) {
+    const objects = await this.load()
 
     objects.splice(index, 1)
-    this.save(objects)
+    await this.save(objects)
   }
 
   update(object) {
