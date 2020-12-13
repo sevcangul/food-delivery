@@ -1,15 +1,21 @@
 const { customerDatabase, restaurantDatabase } = require('./database')
 const printOrderHistory = require('./lib/print-order-history')
 
-const bigchefs = restaurantDatabase.findBy('brand', 'Big Chefs')
-const sevcan = customerDatabase.findByName('Sevcan')
+async function main() {
+  const bigchefs = await restaurantDatabase.findBy('brand', 'Big Chefs')
+  const sevcan = await customerDatabase.findByName('Sevcan')
 
-sevcan.giveAnOrder(bigchefs, 'hamburger', 'Urlaa')
-customerDatabase.update(sevcan)
+  sevcan.giveAnOrder(bigchefs, 'hamburger', 'Urlaaaa')
+  await customerDatabase.update(sevcan)
 
-printOrderHistory(sevcan)
-console.log(customerDatabase.findBy('location', 'Urla'))
-console.log(restaurantDatabase.findBy('brand', 'Big Chefs'))
+
+  printOrderHistory(sevcan)
+  console.log(await customerDatabase.findBy('location', 'Karşıyaka'))
+
+}
+
+main()
+
 
 
 
