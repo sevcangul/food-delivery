@@ -20,78 +20,57 @@
   "food": "16",
   "location": "17",
   "orders": "18"
-},"ad1215ab-fe49-4d54-8073-1dea69422f2e","Sevcan","hamburger","Urla",[
+},"a79a0e5d-3280-4630-805f-1fa4f487c318","Sevcan","hamburger","Urla",[
   "19",
   "20",
   "21",
   "22",
-  "23",
+  "23"
+],"54e69c64-7c81-46ef-86c5-b23fb35e7832","Gizem","cake","Karşıyaka",[
   "24"
-],"3b3cfb7e-aaf6-4fd3-a500-d7107137ed15","Gizem","cake","Karşıyaka",[
-  "25"
-],"abefc284-5fa0-474f-930d-81d1c0120cef","Dilek","cheeseburger","Güzelbahçe",[],{
-  "customer": "26",
-  "restaurant": "27",
+],"bd3baf7a-6a6a-429d-a8db-af67a23e1396","Dilek","cheeseburger","Güzelbahçe",[],{
+  "customer": "25",
+  "restaurant": "26",
   "food": "6",
-  "id": "28"
+  "id": "27"
 },{
-  "customer": "26",
-  "restaurant": "27",
-  "food": "29",
-  "id": "30"
+  "customer": "25",
+  "restaurant": "26",
+  "food": "28",
+  "id": "29"
 },{
-  "customer": "26",
-  "restaurant": "27",
-  "food": "31",
+  "customer": "25",
+  "restaurant": "26",
+  "food": "30",
+  "id": "31"
+},{
+  "customer": "25",
+  "restaurant": "26",
+  "food": "16",
   "id": "32"
 },{
-  "customer": "26",
-  "restaurant": "27",
-  "food": "16",
-  "id": "33"
+  "customer": "25",
+  "restaurant": "26",
+  "food": "33",
+  "id": "34"
 },{
-  "customer": "34",
-  "restaurant": "35",
-  "food": "6",
+  "customer": "35",
+  "restaurant": "26",
+  "food": "11",
   "id": "36"
 },{
-  "customer": "1",
-  "restaurant": "37",
-  "food": "6",
-  "id": "38"
-},{
-  "customer": "39",
-  "restaurant": "40",
-  "food": "11",
-  "id": "41"
-},{
   "id": "4",
   "name": "5",
   "food": "6",
   "location": "7",
   "orders": "8"
 },{
-  "brand": "42",
-  "location": "43"
-},"e6523d82-20d9-4b4f-81e3-b5e3ea7f9627","pizza","9d3d9489-3e44-4347-b40e-b93f3fd4ee89","pasta","b9f5d09b-0153-41c5-9e40-b0fb55ca5ba6","5305c21b-4f35-47fe-9633-1190d0c4adf2",{
-  "id": "4",
-  "name": "5",
-  "food": "6",
-  "location": "7",
-  "orders": "8"
-},{
-  "brand": "42",
-  "location": "43"
-},"f60b11f6-029b-4465-a65b-de0150447115",{
-  "brand": "42",
-  "location": "43"
-},"49e2ba72-27a8-426d-8cc6-55ae590327d8",{
+  "brand": "37",
+  "location": "38"
+},"158d4e6e-2058-4868-bffe-e65fd2f91c01","pizza","d70ebbff-e2c7-47e6-b3f6-6f05f18d4c40","pasta","c05ec79d-c9ab-47c3-b607-f67c52856743","375a2331-b018-4ea2-95a5-13b832cec2d2","salad","1d4b115c-e09f-400d-8964-5eb72c866720",{
   "id": "9",
   "name": "10",
   "food": "11",
   "location": "12",
   "orders": "13"
-},{
-  "brand": "42",
-  "location": "43"
-},"67dc5c62-ef47-4242-891d-eaf49cfacb04","Big Chefs","Alsancak"]
+},"f7d6b122-f117-4b57-b3d3-32e582a32116","Big Chefs","Alsancak"]

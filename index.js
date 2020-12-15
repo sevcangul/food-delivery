@@ -5,12 +5,14 @@ async function main() {
   const bigchefs = await restaurantDatabase.findBy('brand', 'Big Chefs')
   const sevcan = await customerDatabase.findByName('Sevcan')
 
-  sevcan.giveAnOrder(bigchefs, 'hamburger', 'Urlaaaa')
-  await customerDatabase.update(sevcan)
+  // sevcan.giveAnOrder(bigchefs, 'san sebastian cheesecake')
+  // await customerDatabase.update(sevcan)
+
+  sevcan.cancelOrder('375a2331-b018-4ea2-95a5-13b832cec2d2')
 
 
   printOrderHistory(sevcan)
-  console.log(await customerDatabase.findBy('location', 'Karşıyaka'))
+  // console.log(await customerDatabase.findBy('location', 'Karşıyaka'))
 
 }
 

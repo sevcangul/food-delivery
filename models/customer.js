@@ -18,11 +18,14 @@ class Customer {
     return order
   }
 
-  // cancelOrder(orderId) {
-  //    if(orders.id == this.id)
-  //     this.orders.splice(id, 1)
-  //    return order
-  // }
+  cancelOrder(orderId) {
+    for (let i = 0; i < this.orders.length; i++) {
+      if (this.orders[i].id == orderId) {
+        this.orders.splice(i, 1)
+      }
+    }
+    console.log(this.orders)
+  }
 
   static create({id, name, food, location, orders}) {
     return new Customer(id, name, food, location, orders)
